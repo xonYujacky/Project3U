@@ -14,7 +14,8 @@ public class Project {
     // e.g. 15363423
 
     int image;
-
+    //hasil generate constructor
+    //
     public Project(String name, String description, int image) {
         this.name = name;
         this.description = description;
