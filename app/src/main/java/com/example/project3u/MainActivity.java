@@ -31,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
                 new Project("The Hungry Dev", "List View menu of restaurant", R.drawable.hungry_developer)
         };
 
+        //set adapter
+        ProjectAdapter adapter = new ProjectAdapter(projects);
+
+        list_object.setAdapter(adapter);
+
 
 
 
